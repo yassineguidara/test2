@@ -21,7 +21,13 @@ class Student
 
     }
 
-
+    public function student_male(){
+      
+      $sql = "SELECT * FROM students ORDER BY student_id asc ";
+      $result=  $this->conn->query($sql);
+      return $result;  
+      echo $result;
+   }
     public function student_list(){
         
        $sql = "SELECT * FROM students ORDER BY student_id asc ";

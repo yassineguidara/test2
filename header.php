@@ -28,6 +28,7 @@
                     <ul class="nav navbar-nav">
                           <li> <img src="./assets/images/ce.png" alt="CE" class="tlogo"> </li>
                         <li class="active"><a href="index.php">Home</a></li>
+                        <li class="active"><a href="indexMale.php">MAle</a></li>
                     </ul>
 
                 </div>
