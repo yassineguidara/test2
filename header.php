@@ -30,6 +30,7 @@
                         <li class="active"><a href="index.php">Home</a></li>
                         <li class="active"><a href="indexMale.php">MAle</a></li>
                         <li class="active"><a href="pays.php">PAYS</a></li>
+                        <li class="active"><a href="AjoutDateInscri.php">Ajouter</a></li>
                     </ul>
 
                 </div>
