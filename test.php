@@ -1,4 +1,4 @@
 <?php
 function helloWord () {
-    echo "Hello word !"  ;
+    echo "Hello word !";
 }
