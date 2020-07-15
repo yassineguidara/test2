@@ -14,8 +14,11 @@
                 /*Un utilisateur ne pourra jamais changer la structure d'une table,
                  *pas la peine donc d'utiliser de requête préparée*/
                 $sql = "
-                  ALTER TABLE students
-                  ADD DateInscription TIMESTAMP
+                CREATE TABLE cours
+                id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                NomCours VARCHAR(30) NOT NULL,
+                //   ALTER TABLE students
+                //   ADD DateInscription TIMESTAMP
                 ";
                 $dbco->exec($sql);
                 echo 'Colonne ajoutée';
