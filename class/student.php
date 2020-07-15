@@ -20,13 +20,19 @@ class Student
        }
 
     }
-
+    
+    public function student_pays(){
+       $sql ="SELECT * FROM student where country='Bangladesh' ";
+       $result=  $this->conn->query($sql);
+       return $result;  
+       
+    } 
     public function student_male(){
       
       $sql = "SELECT * FROM students ORDER BY student_id asc ";
       $result=  $this->conn->query($sql);
       return $result;  
-      echo $result;
+  
    }
     public function student_list(){
         
@@ -39,7 +45,7 @@ class Student
          
        if(isset($post_data['create_student'])){
        $student_name= mysqli_real_escape_string($this->conn,trim($post_data['student_name']));
-       $email_address= mysqli_real_escape_string($this->conn,trim($post_data['email_address']));
+      $email_address= mysqli_real_escape_string($this->conn,trim($post_data['email_address']));
        $gender= mysqli_real_escape_string($this->conn,trim($post_data['gender']));
        $contact= mysqli_real_escape_string($this->conn,trim($post_data['contact']));
        $country= mysqli_real_escape_string($this->conn,trim($post_data['country']));

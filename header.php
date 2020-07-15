@@ -29,6 +29,7 @@
                           <li> <img src="./assets/images/ce.png" alt="CE" class="tlogo"> </li>
                         <li class="active"><a href="index.php">Home</a></li>
                         <li class="active"><a href="indexMale.php">MAle</a></li>
+                        <li class="active"><a href="pays.php">PAYS</a></li>
                     </ul>
 
                 </div>
