@@ -31,7 +31,10 @@
                         <li class="active"><a href="indexMale.php">MAle</a></li>
                         <li class="active"><a href="pays.php">PAYS</a></li>
                         <li class="active"><a href="AjoutDateInscri.php">Ajouter</a></li>
+                        <li class="active"><a href="deleteDateInscrit.php">supprimer</a></li>
+                        <li class="active"><a href="Addtableprof.php">Add Table</a></li>
                     </ul>
+
 
                 </div>
             </div>
